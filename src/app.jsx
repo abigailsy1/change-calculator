@@ -44,14 +44,14 @@ class App extends Component {
 
     this.setState({
       change: amount.toFixed(2),
-      twenties:twenty,
-      tens:ten,
-      fives:five,
-      ones:one,
-      quarters:quarter,
-      dimes:dime,
-      nickles:nickel,
-      pennies:penny
+      twenties: twenty,
+      tens: ten,
+      fives: five,
+      ones: one,
+      quarters: quarter,
+      dimes: dime,
+      nickles: nickel,
+      pennies: penny
     })
   }
 
@@ -74,8 +74,7 @@ class App extends Component {
               </div>
 
               <div className="card-footer text-center" >
-                <button type="button" id="button" className="btn btn-primary btn-block" onClick={this.calculate}>Calculate</button>
-              </div>
+                <button type="button" id="button" className="btn btn-primary btn-block" onClick={this.calculate}>Calculate</button></div>
             </div>
           </div>
 
@@ -88,29 +87,25 @@ class App extends Component {
                   <div className="card bg-light">
                     <div className="card-body text-center">
                       <p className="card-text text font-weight-bold">Twenties</p>
-                      <p id="twenties" type ="number" value={this.state.twenties}>{this.state.twenties}</p>
-                    </div>
+                      <p id="twenties" type="number" value={this.state.twenties}>{this.state.twenties}</p></div>
                   </div>
 
                   <div className="card bg-light">
                     <div className="card-body text-center">
                       <p className="card-text text font-weight-bold">Tens</p>
-                      <p id="tens" type ="number" value={this.state.tens}>{this.state.tens}</p>
-                    </div>
+                      <p id="tens" type="number" value={this.state.tens}>{this.state.tens}</p></div>
                   </div>
 
                   <div className="card bg-light">
                     <div className="card-body text-center">
                       <p className="card-text text font-weight-bold">Fives</p>
-                      <p id="fives" type ="number" value={this.state.twenties}>{this.state.fives}</p>
-                    </div>
+                      <p id="fives" type="number" value={this.state.twenties}>{this.state.fives}</p></div>
                   </div>
 
                   <div className="card bg-light">
                     <div className="card-body text-center">
                       <p className="card-text text font-weight-bold">Ones</p>
-                      <p id="ones" type ="number" value={this.state.twenties}>{this.state.ones}</p>
-                    </div>
+                      <p id="ones" type="number" value={this.state.twenties}>{this.state.ones}</p></div>
                   </div>
                 </div>
                 <br />
@@ -119,29 +114,25 @@ class App extends Component {
                   <div className="card bg-light">
                     <div className="card-body text-center">
                       <p className="card-text text font-weight-bold">Quarters</p>
-                      <p id="quarters" type ="number" value={this.state.twenties}>{this.state.quarters}</p>
-                    </div>
+                      <p id="quarters" type="number" value={this.state.twenties}>{this.state.quarters}</p></div>
                   </div>
 
                   <div className="card bg-light">
                     <div className="card-body text-center">
                       <p className="card-text text font-weight-bold">Dimes</p>
-                      <p id="dimes" type ="number" value={this.state.twenties}>{this.state.dimes}</p>
-                    </div>
+                      <p id="dimes" type="number" value={this.state.twenties}>{this.state.dimes}</p></div>
                   </div>
 
                   <div className="card bg-light">
                     <div className="card-body text-center">
                       <p className="card-text text font-weight-bold">Nickels</p>
-                      <p id="nickles" type ="number" value={this.state.twenties}>{this.state.nickles}</p>
-                    </div>
+                      <p id="nickles" type="number" value={this.state.twenties}>{this.state.nickles}</p></div>
                   </div>
 
                   <div className="card bg-light">
                     <div className="card-body text-center">
                       <p className="card-text text font-weight-bold">Pennies</p>
-                      <p id="pennies" type ="number" value={this.state.twenties}>{this.state.pennies}</p>
-                    </div>
+                      <p id="pennies" type="number" value={this.state.twenties}>{this.state.pennies}</p></div>
                   </div>
                 </div>
               </div>
@@ -149,8 +140,7 @@ class App extends Component {
           </div>
         </div>
       </div>
-    )
-  }
+    )}
 }
 
 export default App;
